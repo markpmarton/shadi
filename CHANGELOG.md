@@ -7,6 +7,25 @@ workspace-wide view of each release.
 
 ## [Unreleased]
 
+## [0.1.11](https://github.com/agntcy/shadi/compare/agntcy-shadi-cli-v0.1.10...agntcy-shadi-cli-v0.1.11) - 2026-09-16
+
+### Added
+
+- *(agentbridge)* serve the agent card at the well-known path ([#287](https://github.com/agntcy/shadi/pull/287))
+- *(sandbox)* bound proxy connections and finish the SOCKS5 fuzzing ([#290](https://github.com/agntcy/shadi/pull/290))
+
+### Fixed
+
+- *(agentbridge)* terminate every child on shutdown, not just the newest ([#281](https://github.com/agntcy/shadi/pull/281))
+- *(agentbridge)* stop claude --add-dir from swallowing the prompt ([#275](https://github.com/agntcy/shadi/pull/275))
+
+### Other
+
+- *(agentbridge)* serialise the TLS tests against each other ([#288](https://github.com/agntcy/shadi/pull/288))
+- Fix/pyo3 0.29 build ([#268](https://github.com/agntcy/shadi/pull/268))
+- *(sandbox)* fuzz resolve_session_socket ([#291](https://github.com/agntcy/shadi/pull/291))
+- *(sandbox)* hold the port lock in every test that binds one ([#289](https://github.com/agntcy/shadi/pull/289))
+
 ## [0.1.10](https://github.com/agntcy/shadi/compare/agntcy-shadi-cli-v0.1.9...agntcy-shadi-cli-v0.1.10) - 2026-09-15
 
 ### Other
