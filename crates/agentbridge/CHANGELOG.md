@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0](https://github.com/markpmarton/shadi/compare/agntcy-agentbridge-v0.4.0...agntcy-agentbridge-v0.5.0) - 2026-10-12
+
+### Added
+
+- *(desktop)* [**breaking**] own rooms through a SLIM channel manager ([#449](https://github.com/markpmarton/shadi/pull/449))
+- *(agentbridge)* [**breaking**] let the owner's standing rules decide removals ([#446](https://github.com/markpmarton/shadi/pull/446))
+- *(desktop)* add the Agent Directory panel ([#453](https://github.com/markpmarton/shadi/pull/453))
+
+### Other
+
+- *(deps)* [**breaking**] move to SLIM 3.2.1, a2a-slimrpc 0.3 and OpenTelemetry 0.33 ([#465](https://github.com/markpmarton/shadi/pull/465))
+- *(deps)* move to SLIM 3.1 ([#443](https://github.com/markpmarton/shadi/pull/443))
+
 ## [0.4.0](https://github.com/agntcy/shadi/compare/agntcy-agentbridge-v0.3.0...agntcy-agentbridge-v0.4.0) - 2026-10-09
 
 ### Added
